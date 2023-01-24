@@ -80,7 +80,7 @@ body, html {
 }
 
 .wrap_header {
-  z-index: 2;
+  z-index: 3;
 }
 
 .header-top-line {
