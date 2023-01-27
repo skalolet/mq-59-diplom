@@ -1235,6 +1235,9 @@ html {
   .popup-close {
     cursor: pointer;
   }
+  .popup-submit {
+    cursor: pointer;
+  }
 }
 
 @media (min-width: 641px) and (max-width: 1200px) and (orientation: landscape) {
