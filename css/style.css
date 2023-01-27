@@ -577,19 +577,15 @@ html {
 .product-item {
   position: relative;
   width: 100%;
-  margin: 285px 0 30px 0;
-  border: 2px solid #b59f5b;
+  margin: 0 0 30px 0;
   border-top: none;
 }
 
 .product-img-box {
   width: 285px;
   height: 285px;
-  position: absolute;
-  top: -250px;
-  left: 0;
-  right: 0;
-  margin: auto;
+  position: relative;
+  margin: 0 auto;
   z-index: 0;
 }
 
@@ -605,9 +601,10 @@ html {
 
 .product-entry {
   width: 100%;
-  border-top: 2px solid #b59f5b;
   position: relative;
+  margin: -30px 0 0 0;
   padding: 50px 20px 25px 20px;
+  border: 2px solid #b59f5b;
   z-index: 1;
 }
 
@@ -1061,14 +1058,19 @@ html {
   }
 
   .product-item {
+    display: flex;
+    flex-direction: column;
     width: calc(50% - 20px);
-    margin: 230px 0 30px 0;
+    margin: 0 0 30px 0;
   }
 
   .product-img-box {
     width: 290px;
     height: 230px;
-    top: -200px;
+  }
+
+  .product-entry {
+    flex-grow: 1;
   }
 
   .popup {
@@ -1216,13 +1218,12 @@ html {
 
   .product-item {
     width: calc(33.33% - 45px);
-    margin: 205px 0 30px 0;
+    margin: 0 0 30px 0;
   }
 
   .product-img-box {
     width: 300px;
     height: 205px;
-    top: -175px;
   }
 
   .footer-wrap {
