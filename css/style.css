@@ -591,8 +591,8 @@ html {
 .product-entry {
   width: 100%;
   position: relative;
-  margin: -30px 0 0 0;
-  padding: 50px 20px 25px 20px;
+  margin: -35px 0 0 0;
+  padding: 50px 20px 28px 20px;
   border: 2px solid #b59f5b;
   z-index: 1;
 }
@@ -1042,7 +1042,7 @@ html {
   }
 
   .wrap-product {
-    padding: 60px 35px 0 35px;
+    padding: 60px 35px 40px 35px;
   }
 
   .product-container {
@@ -1211,7 +1211,7 @@ html {
   .wrap-product {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 53px 15px 0 15px;
+    padding: 53px 15px 35px 15px;
   }
 
   .product-item {
