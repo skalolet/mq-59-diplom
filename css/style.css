@@ -275,6 +275,7 @@ html {
 .figure__img {
   display: block;
   width: 100%;
+  object-fit: cover;
 }
 
 .article__entry {
@@ -1010,10 +1011,6 @@ html {
     margin: 0;
   }
 
-  .figure__block {
-    min-height: 302px;
-  }
-
   .article__title {
     line-height: 1.3;
     font-size: 1.2em;
@@ -1177,7 +1174,6 @@ html {
 
   .figure__block {
     width: 380px;
-    min-height: 295px;
     flex: 0 0 auto;
   }
 
