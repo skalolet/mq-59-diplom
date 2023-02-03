@@ -275,7 +275,6 @@ html {
 .figure__img {
   display: block;
   width: 100%;
-  object-fit: cover;
 }
 
 .article__entry {
