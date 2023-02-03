@@ -585,7 +585,6 @@ html {
   width: 100%;
   display: block;
   position: relative;
-  object-fit: cover;
 }
 
 .product-entry {
